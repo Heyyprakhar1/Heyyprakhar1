@@ -1,98 +1,172 @@
-# 💫 About Me:
-👋 Hi, I'm Prakhar Srivastava<br><br>
-🚀 I'm an aspiring **DevOps & Cloud Engineer** passionate about building scalable, automated, and reliable infrastructure. I enjoy working with Linux, Docker, Kubernetes, and AWS to build, deploy, and manage real-world applications.<br><br>
+<!-- ======================== -->
+<!--      PREMIUM HEADER      -->
+<!-- ======================== -->
 
-🔭 I’m currently working on:<br><br>
-* DevOps projects using **Docker, Kubernetes, Jenkins, and AWS**<br>
-* Automating deployments and building CI/CD pipelines<br><br>
+<h1 align="center">Prakhar Srivastava</h1>
 
-👯 I’m looking to collaborate on:<br><br>
-* Open-source **DevOps, Cloud, and Automation projects**<br>
-* Beginner-friendly projects involving Docker, Linux, and AWS<br><br>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=FF9900&center=true&vCenter=true&width=900&lines=Cloud+%26+DevOps+Engineer;Advanced+Certification+%7C+IIT+Roorkee+Collaboration;AWS+%7C+Docker+%7C+Kubernetes+%7C+CI%2FCD;Infrastructure+Automation+%7C+Terraform;Building+Secure+%26+Scalable+Cloud+Systems" />
+</p>
 
-🤝 I’m looking for help with:<br><br>
-* Advanced Kubernetes, Production-level CI/CD, and Cloud Architecture<br><br>
-
-🌱 I’m currently learning:<br><br>
-* **Kubernetes, Terraform, Advanced Linux, and AWS Cloud Architecture**<br><br>
-
-💬 Ask me about:<br><br>
-* Linux, Bash Scripting, Docker, AWS, Kubernetes, and DevOps roadmap<br><br>
-
-⚡ Fun fact:<br><br>
-* I believe in learning by building real projects and documenting everything on GitHub.<br>
-
+<p align="center">
+  <img src="https://img.shields.io/badge/Intellipaat-Advanced%20Certification-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/IIT%20Roorkee-Collaboration-003366?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Cloud%20Computing-Advanced-0A66C2?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/DevOps-Advanced-8A2BE2?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Linux-Strong%20Foundation-black?style=for-the-badge&logo=linux"/>
+</p>
 
 ---
 
-# 🚀 Featured DevOps Projects
+# 👋 About Me:
 
-🔹 **Dockerized 2-Tier Application (Flask + MySQL)**  
-👉 https://github.com/Heyyprakhar1/two-tier-app  
+🚀 Cloud & DevOps Engineer with **Advanced Certification in Cloud Computing & DevOps**  
+(Offered by Intellipaat in collaboration with IIT Roorkee)
 
-🔹 **Dockerized 3-Tier Application (Node.js + Backend + Database)**  
-👉 https://github.com/Heyyprakhar1/Node-three-tier-app  
+🛠 I’m currently working on:  
+• Production-ready AWS 3-Tier Architectures  
+• Terraform-based Infrastructure Automation  
 
+🤝 I’m looking to collaborate on:  
+• DevOps real-world projects  
+• Open-source cloud automation tools  
 
----
+🌱 I’m currently learning:  
+• Kubernetes (Advanced Concepts)  
+• CI/CD optimisation & monitoring  
 
-## 🌐 Socials:
+💬 Ask me about:  
+• AWS architecture design  
+• Docker & containerization  
+• Linux troubleshooting  
 
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?style=for-the-badge&logo=Facebook&logoColor=white)](https://facebook.com/heyyprakhar1)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/heyyprakhar1)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/heyyprakhar1)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srivprak0106@gmail.com)
-
----
-
-# 💻 Tech Stack:
-
-![Python](https://img.shields.io/badge/Python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-2C5263?style=for-the-badge&logo=jenkins&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-1A1918?style=for-the-badge&logo=ansible&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326ce5?style=for-the-badge&logo=kubernetes&logoColor=white)
-
-![Terraform](https://img.shields.io/badge/Terraform-5835CC?style=for-the-badge&logo=terraform&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2671E5?style=for-the-badge&logo=githubactions&logoColor=white)
-
-![Git](https://img.shields.io/badge/Git-F05033?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white)
+⚡ Fun fact: I enjoy breaking things in the cloud just to rebuild them better.
 
 
-# 📊 GitHub Stats:
+🛠 I specialise in:
 
-![](https://github-readme-stats.vercel.app/api?username=Heyyprakhar1&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+• Designing AWS cloud infrastructure (VPC, EC2, RDS, S3, ELB, IAM)  
+• Infrastructure as Code using **Terraform**  
+• Automating deployments with **CI/CD pipelines**  
+• Containerizing applications using **Docker**  
+• Orchestrating workloads with **Kubernetes**  
+• Linux system administration & networking  
 
-![](https://nirzak-streak-stats.vercel.app/?user=Heyyprakhar1&theme=dark&hide_border=false)<br/>
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Heyyprakhar1&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
+💡 Focused on: **Automation, scalability, security-first architecture & production-grade deployments.**
 
 ---
 
-## 🏆 GitHub Trophies
+# 🚀 Featured DevOps & Cloud Projects
 
-![](https://github-profile-trophy.vercel.app/?username=Heyyprakhar1&theme=radical&no-frame=false&no-bg=true&margin-w=4)
+## 🏗 Three-Tier AWS Web Application
+🔗 https://github.com/Heyyprakhar1/Node-three-tier-app
 
+✔ VPC with Public & Private Subnets  
+✔ Application Load Balancer  
+✔ EC2 Auto Scaling  
+✔ RDS in Private Subnet  
+✔ Secure Security Group configuration  
 
 ---
 
-### ✍️ Random Dev Quote
+## 🐳 Two-Tier Web Application (Dockerized)
+🔗 https://github.com/Heyyprakhar1/two-tier-app
 
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
+✔ Multi-container Docker setup  
+✔ Backend + Database integration  
+✔ Environment variable configuration  
+✔ Production-ready service structure  
 
 ---
 
-[![](https://visitcount.itsvg.in/api?id=Heyyprakhar1&icon=0&color=0)](https://visitcount.itsvg.in)
+## ⚙️ Terraform + AWS Infrastructure Automation
+🔗 https://github.com/Heyyprakhar1/Assignment-for-devops
+
+✔ Infrastructure provisioning using Terraform  
+✔ EC2 & Networking automation  
+✔ State management  
+✔ Modular infrastructure design  
+
+---
+
+# 🧠 Core Technical Skills
+
+### ☁️ Cloud
+AWS (IAM, VPC, EC2, RDS, S3, ELB, Auto Scaling, CloudWatch)
+
+### 🐳 DevOps & Containers
+Docker | Kubernetes | Jenkins | GitHub Actions
+
+### 🖥️ Systems & Scripting
+Linux | Bash | YAML | AWS CLI
+
+### 🌐 Networking
+TCP/IP | Subnetting | Ports | Security Groups | Linux Networking Tools
+
+---
+
+---
+
+# 📚 Community & Continuous Learning
+
+🚀 Actively contributing to the DevOps community  
+
+🔥 Currently on a mission to complete the **#90DaysOfDevOps** challenge  
+
+✔ Building projects daily  
+✔ Practising real-world Linux, Docker & Kubernetes  
+✔ Strengthening cloud architecture fundamentals  
+✔ Sharing progress and learning publicly  
+
+💡 Consistency > Motivation. Execution > Excuses.
 
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+# 📊 GitHub Performance
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Heyyprakhar1&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Heyyprakhar1&theme=tokyonight&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Heyyprakhar1&layout=compact&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+# 🚀 Recently Updated Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Heyyprakhar1&theme=tokyo-night&hide_border=true" />
+</p>
+
+---
+
+# 🤝 Connect With Me
+
+<p align="center">
+  <a href="https://github.com/Heyyprakhar1">
+    <img src="https://img.shields.io/badge/GitHub-Heyyprakhar1-181717?style=for-the-badge&logo=github"/>
+  </a>
+  <a href="https://www.linkedin.com/in/heyyprakhar1/">
+    <img src="https://img.shields.io/badge/LinkedIn-Prakhar%20Srivastava-0077B5?style=for-the-badge&logo=linkedin"/>
+  </a>
+  <a href="mailto:srivprak0106@gmail.com">
+    <img src="https://img.shields.io/badge/Email-srivprak0106@gmail.com-D14836?style=for-the-badge&logo=gmail"/>
+  </a>
+</p>
+
+---
+
+# 🏆 Engineering Mindset
+
+> Automate everything.  
+> Secure by design.  
+> Deploy with confidence.  
+> Monitor and optimise continuously.
+
+---
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Heyyprakhar1&style=for-the-badge&color=brightgreen"/>
+</p>
