@@ -56,6 +56,41 @@
 
 ---
 
+# 🏆 Automation Hero – TrainWithShubham Community
+
+## Milestone Achievement – February 2026
+
+Recognised as an **Automation Hero** in the TrainWithShubham Community  
+for excellence in automation, CI/CD practices, and DevOps contribution.
+
+🔗 Official Recognition:
+https://community.trainwithshubham.com/heroes
+
+---
+
+## What This Represents
+
+- Practical automation implementation
+- CI/CD pipeline expertise
+- DevOps best practices in action
+- Community contribution & technical consistency
+
+---
+
+## Skills Strengthened During This Journey
+
+- Infrastructure Automation
+- CI/CD Pipelines
+- Docker & Containerization
+- GitHub Automation
+- Cloud (AWS)
+
+---
+
+
+
+> This milestone reflects continuous learning, execution, and real-world DevOps implementation.
+
 # 🚀 Featured DevOps & Cloud Projects
 
 ## 🏗 Three-Tier AWS Web Application
