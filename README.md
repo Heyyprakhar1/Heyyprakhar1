@@ -21,7 +21,9 @@
 [![Three-Tier AWS Web App](https://img.shields.io/badge/🏗%20Three--Tier%20AWS%20Web%20App-ALB%20·%20EC2%20ASG%20·%20RDS%20·%20Terraform-0066ff?style=for-the-badge&labelColor=000d1a)](https://github.com/Heyyprakhar1/Node-three-tier-app)
 [![Two-Tier Dockerized App](https://img.shields.io/badge/🐳%20Two--Tier%20Dockerized%20App-Docker%20·%20Backend%20·%20Database%20·%20Compose-00f0ff?style=for-the-badge&labelColor=000d1a)](https://github.com/Heyyprakhar1/two-tier-app)
 
+<!-- QUOTE_START -->
 > *"Don't just deploy — architect. This isn't infrastructure, it's a statement."*
+<!-- QUOTE_END -->
 
 </div>
 

@@ -3,29 +3,28 @@
 #
 # What it does:
 #   - Runs every 6 hours (or on every push to main)
-#   - Re-commits the README so GitHub stats widgets re-render
-#     with fresh data (streak, stats cards, visitor count)
+#   - Picks a RANDOM DevOps/cloud quote each time
+#   - Replaces the quote block in README.md between
+#     <!-- QUOTE_START --> and <!-- QUOTE_END --> markers
+#   - Commits & pushes so the profile always feels fresh
 #
 # Setup:
-#   1. Copy this file to .github/workflows/update-readme.yml
-#      in your USERNAME/USERNAME profile repo
-#   2. Go to Settings → Actions → General
-#      → set "Workflow permissions" to "Read and write"
-#   3. Push — you're done! 🎉
+#   Settings → Actions → General → Workflow permissions
+#   → Read and write → Save
 # ════════════════════════════════════════════════════════════
 
-name: 🔄 Refresh Profile README
+name: 🔄 Refresh Profile README & Rotate Quote
 
 on:
   schedule:
     - cron: "0 */6 * * *"   # Every 6 hours
   push:
     branches: [main]
-  workflow_dispatch:         # Allow manual trigger from Actions tab
+  workflow_dispatch:         # Manual trigger from Actions tab
 
 jobs:
   refresh:
-    name: Touch README to bust widget caches
+    name: Rotate quote & refresh README
     runs-on: ubuntu-latest
 
     steps:
@@ -34,20 +33,68 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: 🕒 Stamp README with current UTC time
+      - name: 🎲 Pick a random DevOps quote & update README
         run: |
-          # Append/update a hidden HTML comment at the bottom of README
-          # This forces GitHub to re-render all embedded stat images
+          # ── Quote bank ──────────────────────────────────────
+          QUOTES=(
+            "Don't just deploy — architect. This isn't infrastructure, it's a statement."
+            "Automate the boring. Build the extraordinary."
+            "Every container is a promise. Every pipeline is a commitment."
+            "Infrastructure is code. Treat it like one."
+            "The best deployment is the one nobody notices."
+            "Uptime is earned, not given."
+            "Ship fast, but never skip the security group."
+            "A good DevOps engineer makes complexity invisible."
+            "CI/CD isn't a tool — it's a philosophy."
+            "One bad config, one good lesson."
+            "Build systems that outlive your deadlines."
+            "Terraform today. Sleep better tonight."
+            "Monitoring is not optional. It's your early warning system."
+            "Kubernetes doesn't forgive untested YAMLs."
+            "The cloud is just someone else's computer — make it yours."
+            "Blue-green deployments: because rollbacks should be boring."
+            "Logs don't lie. Read them."
+            "Scale before you need to. Regret after you don't."
+            "DevOps is not a role — it's a mindset."
+            "Every outage is a free architecture review."
+          )
+
+          # Pick a random index
+          RANDOM_INDEX=$(( RANDOM % ${#QUOTES[@]} ))
+          CHOSEN="${QUOTES[$RANDOM_INDEX]}"
+
+          echo "✅ Selected quote: $CHOSEN"
+
+          # Replace content between markers in README.md
+          python3 - <<EOF
+          import re
+
+          with open("README.md", "r") as f:
+              content = f.read()
+
+          new_block = f'<!-- QUOTE_START -->\n> *"{chosen}"*\n<!-- QUOTE_END -->'
+
+          updated = re.sub(
+              r'<!-- QUOTE_START -->.*?<!-- QUOTE_END -->',
+              new_block,
+              content,
+              flags=re.DOTALL
+          )
+
+          with open("README.md", "w") as f:
+              f.write(updated)
+
+          print("README.md updated successfully.")
+          EOF
+        env:
+          chosen: ${{ env.CHOSEN }}
+
+      - name: 🕒 Stamp with timestamp
+        run: |
           TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
-
-          # Remove old timestamp line if present
           sed -i '/<!-- auto-updated:/d' README.md
-
-          # Append new timestamp as invisible HTML comment
           echo "" >> README.md
           echo "<!-- auto-updated: $TIMESTAMP -->" >> README.md
-
-          echo "✅ Stamped README with: $TIMESTAMP"
 
       - name: 📤 Commit & push (only if changed)
         run: |
@@ -57,5 +104,5 @@ jobs:
           git diff --quiet && echo "Nothing changed, skipping." && exit 0
 
           git add README.md
-          git commit -m "chore: refresh profile stats [skip ci]"
+          git commit -m "chore: rotate quote + refresh stats [skip ci]"
           git push
