@@ -1,0 +1,61 @@
+# ════════════════════════════════════════════════════════════
+# FILE: .github/workflows/update-readme.yml
+#
+# What it does:
+#   - Runs every 6 hours (or on every push to main)
+#   - Re-commits the README so GitHub stats widgets re-render
+#     with fresh data (streak, stats cards, visitor count)
+#
+# Setup:
+#   1. Copy this file to .github/workflows/update-readme.yml
+#      in your USERNAME/USERNAME profile repo
+#   2. Go to Settings → Actions → General
+#      → set "Workflow permissions" to "Read and write"
+#   3. Push — you're done! 🎉
+# ════════════════════════════════════════════════════════════
+
+name: 🔄 Refresh Profile README
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # Every 6 hours
+  push:
+    branches: [main]
+  workflow_dispatch:         # Allow manual trigger from Actions tab
+
+jobs:
+  refresh:
+    name: Touch README to bust widget caches
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ⬇️ Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 🕒 Stamp README with current UTC time
+        run: |
+          # Append/update a hidden HTML comment at the bottom of README
+          # This forces GitHub to re-render all embedded stat images
+          TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
+
+          # Remove old timestamp line if present
+          sed -i '/<!-- auto-updated:/d' README.md
+
+          # Append new timestamp as invisible HTML comment
+          echo "" >> README.md
+          echo "<!-- auto-updated: $TIMESTAMP -->" >> README.md
+
+          echo "✅ Stamped README with: $TIMESTAMP"
+
+      - name: 📤 Commit & push (only if changed)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git diff --quiet && echo "Nothing changed, skipping." && exit 0
+
+          git add README.md
+          git commit -m "chore: refresh profile stats [skip ci]"
+          git push
