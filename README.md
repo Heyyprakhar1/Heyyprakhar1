@@ -1,6 +1,20 @@
-<!-- ======================== -->
-<!--      PREMIUM HEADER      -->
-<!-- ======================== -->
+<!-- ════════════════════════════════════════════════════════════
+     ANIMATED GREETING BANNER
+     Place greeting-banner.svg in your repo root
+════════════════════════════════════════════════════════════ -->
+<div align="center">
+  <img src="./greeting-banner.svg" width="100%" alt="Welcome Banner" />
+</div>
+
+<br/>
+
+<div align="center">
+
+![Visitor Count](https://komarev.com/ghpvc/?username=Heyyprakhar1&style=for-the-badge&color=00ffe0&label=EXPLORERS+SO+FAR)
+
+</div>
+
+---
 
 <h1 align="center">Prakhar Srivastava</h1>
 
@@ -18,20 +32,20 @@
 
 ---
 
-# 👋 About Me:
+# 👋 About Me
 
 🚀 Cloud & DevOps Engineer with **Advanced Certification in Cloud Computing & DevOps**  
 (Offered by Intellipaat in collaboration with IIT Roorkee)
 
-🛠 I’m currently working on:  
+🛠 I'm currently working on:  
 • Production-ready AWS 3-Tier Architectures  
 • Terraform-based Infrastructure Automation  
 
-🤝 I’m looking to collaborate on:  
+🤝 I'm looking to collaborate on:  
 • DevOps real-world projects  
 • Open-source cloud automation tools  
 
-🌱 I’m currently learning:  
+🌱 I'm currently learning:  
 • Kubernetes (Advanced Concepts)  
 • CI/CD optimisation & monitoring  
 
@@ -41,7 +55,6 @@
 • Linux troubleshooting  
 
 ⚡ Fun fact: I enjoy breaking things in the cloud just to rebuild them better.
-
 
 🛠 I specialise in:
 
@@ -63,64 +76,43 @@
 Recognised as an **Automation Hero** in the TrainWithShubham Community  
 for excellence in automation, CI/CD practices, and DevOps contribution.
 
-🔗 Official Recognition:
-https://community.trainwithshubham.com/heroes
+🔗 [Official Recognition](https://community.trainwithshubham.com/heroes)
 
----
-
-## What This Represents
+### What This Represents
 
 - Practical automation implementation
 - CI/CD pipeline expertise
 - DevOps best practices in action
 - Community contribution & technical consistency
 
----
+### Skills Strengthened During This Journey
 
-## Skills Strengthened During This Journey
-
-- Infrastructure Automation
-- CI/CD Pipelines
-- Docker & Containerization
-- GitHub Automation
-- Cloud (AWS)
-
----
-
-
+- Infrastructure Automation · CI/CD Pipelines · Docker & Containerization · GitHub Automation · Cloud (AWS)
 
 > This milestone reflects continuous learning, execution, and real-world DevOps implementation.
+
+---
 
 # 🚀 Featured DevOps & Cloud Projects
 
 ## 🏗 Three-Tier AWS Web Application
-🔗 https://github.com/Heyyprakhar1/Node-three-tier-app
+🔗 [github.com/Heyyprakhar1/Node-three-tier-app](https://github.com/Heyyprakhar1/Node-three-tier-app)
 
-✔ VPC with Public & Private Subnets  
-✔ Application Load Balancer  
-✔ EC2 Auto Scaling  
-✔ RDS in Private Subnet  
-✔ Secure Security Group configuration  
+✔ VPC with Public & Private Subnets · ✔ Application Load Balancer · ✔ EC2 Auto Scaling · ✔ RDS in Private Subnet · ✔ Secure Security Group configuration
 
 ---
 
 ## 🐳 Two-Tier Web Application (Dockerized)
-🔗 https://github.com/Heyyprakhar1/two-tier-app
+🔗 [github.com/Heyyprakhar1/two-tier-app](https://github.com/Heyyprakhar1/two-tier-app)
 
-✔ Multi-container Docker setup  
-✔ Backend + Database integration  
-✔ Environment variable configuration  
-✔ Production-ready service structure  
+✔ Multi-container Docker setup · ✔ Backend + Database integration · ✔ Environment variable configuration · ✔ Production-ready service structure
 
 ---
 
 ## ⚙️ Terraform + AWS Infrastructure Automation
-🔗 https://github.com/Heyyprakhar1/Assignment-for-devops
+🔗 [github.com/Heyyprakhar1/Assignment-for-devops](https://github.com/Heyyprakhar1/Assignment-for-devops)
 
-✔ Infrastructure provisioning using Terraform  
-✔ EC2 & Networking automation  
-✔ State management  
-✔ Modular infrastructure design  
+✔ Infrastructure provisioning using Terraform · ✔ EC2 & Networking automation · ✔ State management · ✔ Modular infrastructure design
 
 ---
 
@@ -140,13 +132,11 @@ TCP/IP | Subnetting | Ports | Security Groups | Linux Networking Tools
 
 ---
 
----
-
 # 📚 Community & Continuous Learning
 
-🚀 Actively contributing to the DevOps community  
+🚀 Actively contributing to the DevOps community
 
-🔥 Currently on a mission to complete the **#90DaysOfDevOps** challenge  
+🔥 Currently on a mission to complete the **#90DaysOfDevOps** challenge
 
 ✔ Building projects daily  
 ✔ Practising real-world Linux, Docker & Kubernetes  
@@ -155,6 +145,7 @@ TCP/IP | Subnetting | Ports | Security Groups | Linux Networking Tools
 
 💡 Consistency > Motivation. Execution > Excuses.
 
+---
 
 # 📊 GitHub Performance
 
@@ -203,5 +194,5 @@ TCP/IP | Subnetting | Ports | Security Groups | Linux Networking Tools
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Heyyprakhar1&style=for-the-badge&color=brightgreen"/>
+  <sub>✨ Thanks for visiting — you made the counter go up! Go explore something cool ↓</sub>
 </p>
