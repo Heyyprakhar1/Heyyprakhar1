@@ -167,15 +167,31 @@ TCP/IP | Subnetting | Ports | Security Groups | Linux Networking Tools
 
 # ✍️ Technical Writing — Hashnode Blog
 
-I write about real DevOps experiences — not tutorials, but actual breakdowns of what went wrong, why, and how I fixed it.
+I write about real DevOps experiences — not tutorials, but actual breakdowns 
+of what went wrong, why, and how I fixed it.
 
 🔗 **Blog:** [hashnode.com/@heyyprakhar01](https://hashnode.com/@heyyprakhar01)
 
+---
+
 ### 📝 Latest Post
 
-**[80 Failures, One Green Signal — My First CI/CD Pipeline on GitHub Actions](https://myfirstblogcicd.hashnode.dev/80-failures-one-green-signal-my-first-ci-cd-pipeline-on-github-actions)**
+**[From 1.13 GiB to 379 MiB — and Then I Added Login, Logout & Privacy](https://heyyprakhar01.hashnode.dev/from-a-1-13-gib-docker-image-to-379-mib-and-then-i-added-login-logout-privacy)**
 
-> How I built a full DevSecOps end-to-end pipeline — 7 reusable workflows, 8 production bugs debugged, and 80 failed pipeline runs before hitting green. Covers `secrets: inherit` indentation, `github.sha` in SSH sessions, `newgrp docker` subshell trap, `depends_on` vs `service_healthy`, and more.
+> Multi-stage builds, distroless images, and full user auth built from scratch —
+> bcrypt, login_required decorator, session management, and user-level data 
+> isolation. Part of the Docker from Zero to Ship series.
+
+**Tags:** `#Docker` `#DevOps` `#Python` `#Flask` `#90DaysOfDevOps`
+
+---
+
+### 📝 Featured Post
+
+**[80 Failures, One Green Signal — My First CI/CD Pipeline on GitHub Actions](https://heyyprakhar01.hashnode.dev/80-failures-one-green-signal-my-first-ci-cd-pipeline-on-github-actions)**
+
+> How I built a full DevSecOps end-to-end pipeline — 7 reusable workflows, 
+> 8 production bugs debugged, and 80 failed pipeline runs before hitting green.
 
 **Tags:** `#DevOps` `#GitHubActions` `#Docker` `#CICD` `#DevSecOps` `#90DaysOfDevOps`
 
