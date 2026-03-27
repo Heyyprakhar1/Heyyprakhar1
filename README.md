@@ -8,6 +8,8 @@
 
 [![Three-Tier AWS Web App](https://img.shields.io/badge/🏗%20Three--Tier%20AWS%20Web%20App-ALB%20·%20EC2%20ASG%20·%20RDS%20·%20Terraform-0066ff?style=for-the-badge&labelColor=000d1a)](https://github.com/Heyyprakhar1/Node-three-tier-app)
 [![DevSecOps CI/CD Pipeline](https://img.shields.io/badge/🔐%20DevSecOps%20CI%2FCD%20Pipeline-GitHub%20Actions%20·%20Trivy%20·%20Bandit%20·%20Auto%20Deploy-00f0ff?style=for-the-badge&labelColor=000d1a)](https://github.com/Heyyprakhar1/two-tier-app)
+[![Microservices Ecommerce Platform](https://img.shields.io/badge/🛒%20Microservices%20Ecommerce-Flask%20·%20Nginx%20Gateway%20·%20JWT%20·%207--Stage%20Pipeline-a855f7?style=for-the-badge&labelColor=000d1a)](https://github.com/Heyyprakhar1/microservices-ecommerce-devsecops)
+
 
 > *"Don't just deploy — architect. Don't just automate — secure. This isn't infrastructure, it's a statement."*
 
@@ -89,8 +91,6 @@ for excellence in automation, CI/CD practices, and DevOps contribution.
 Code Push → GitHub Actions (8-workflow pipeline)
 
 <img width="1345" height="927" alt="image" src="https://github.com/user-attachments/assets/323f2707-125b-4442-b69b-8c44ea98788a" />
-
-
 
 ---
 
