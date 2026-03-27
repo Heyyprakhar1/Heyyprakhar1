@@ -15,7 +15,7 @@
 
 # Prakhar Srivastava
 
-**DevOps Engineer | 1.5+ Years Experience @ Concentrix**
+**DevOps Engineer | Transitioned from Operations → Built CI/CD Pipelines, AWS Infrastructure & DevSecOps from Scratch**
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=FF9900&center=true&vCenter=true&width=900&lines=Cloud+%26+DevOps+Engineer;Advanced+Certification+%7C+IIT+Roorkee+Collaboration;AWS+%7C+Docker+%7C+Kubernetes+%7C+CI%2FCD;DevSecOps+%7C+GitHub+Actions+%7C+Terraform;Building+Secure+%26+Scalable+Cloud+Systems)](https://hashnode.com/@heyyprakhar01)
 
