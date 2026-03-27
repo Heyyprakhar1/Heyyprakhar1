@@ -134,7 +134,7 @@ I write about real DevOps experiences — focusing on failures, debugging, and p
 
 # 📊 GitHub Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Heyyprakhar1&show_icons=true&theme=tokyonight)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Heyyprakhar1&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true)
 
 ---
 
