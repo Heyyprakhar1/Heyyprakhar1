@@ -86,6 +86,11 @@ for excellence in automation, CI/CD practices, and DevOps contribution.
 
 **Pipeline Architecture:**
 
+Code Push → GitHub Actions (8-workflow pipeline)
+
+<img width="1345" height="927" alt="image" src="https://github.com/user-attachments/assets/323f2707-125b-4442-b69b-8c44ea98788a" />
+
+
 
 ---
 
