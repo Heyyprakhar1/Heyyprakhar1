@@ -155,14 +155,15 @@ I specialize in **shift-left DevSecOps** — embedding automated security gates 
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Heyyprakhar1&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Heyyprakhar1&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Heyyprakhar1&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&cache_seconds=1800"/>
+&nbsp;
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Heyyprakhar1&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&cache_seconds=1800"/>
 
 </div>
 
 <div align="center">
 
-[![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=Heyyprakhar1&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=Heyyprakhar1&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
 
 </div>
 
@@ -178,7 +179,7 @@ I specialize in **shift-left DevSecOps** — embedding automated security gates 
 
 <br/>
 
-[![Profile Views](https://visitcount.itsvg.in/api?id=Heyyprakhar1&icon=5&color=1)](https://visitcount.itsvg.in)
+![Profile Views](https://komarev.com/ghpvc/?username=Heyyprakhar1&color=1D9E75&style=flat-square&label=Profile+Views)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:185FA5,100:0f6e56&height=80&section=footer" width="100%"/>
 
