@@ -23,8 +23,8 @@ DevOps Engineer with **1.5+ years of production experience** designing secure CI
 I specialize in **shift-left DevSecOps** — embedding automated security gates into every stage of the delivery pipeline so vulnerabilities are caught at build time, not after deployment. My pipelines have achieved **zero vulnerable artifact promotions to production** across all environments I've managed.
 
 - **Current focus:** Kubernetes orchestration, Terraform IaC, GitOps with Argo CD, and cloud-native DevSecOps
-- **Open to:** Full-time DevOps / Cloud Infrastructure / Platform Engineering roles
-- **Location:** Bihar, India · Remote-ready
+- **Open to:** Full-time DevOps / Cloud Infrastructure roles
+- **Location:** Bihar, India · Remote/On-site-ready
 
 ---
 
