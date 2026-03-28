@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f6e56,100:185FA5&height=120&section=header&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f6e56,100:185FA5&height=120&section=header" width="100%"/>
 
 # Prakhar Srivastava
 ### DevOps Engineer · AWS Cloud Infrastructure · CI/CD & DevSecOps
@@ -155,9 +155,9 @@ I specialize in **shift-left DevSecOps** — embedding automated security gates 
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Heyyprakhar1&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&cache_seconds=1800"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Heyyprakhar1&theme=tokyonight" height="180em"/>
 &nbsp;
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Heyyprakhar1&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact&cache_seconds=1800"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Heyyprakhar1&theme=tokyonight" height="180em"/>
 
 </div>
 
