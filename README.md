@@ -182,6 +182,6 @@ I specialize in **shift-left DevSecOps** — embedding automated security gates 
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Heyyprakhar1&color=1D9E75&style=flat-square&label=Profile+Views)
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:185FA5,100:0f6e56&height=80&section=footer" width="100%"/>
+<img width="1442" height="322" alt="image" src="https://github.com/user-attachments/assets/b01662c5-0c9a-41f8-9f57-9328206a89e2" />
 
 </div>
