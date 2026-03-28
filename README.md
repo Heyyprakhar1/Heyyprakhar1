@@ -1,162 +1,185 @@
-[![Welcome Banner](https://github.com/Heyyprakhar1/Heyyprakhar1/raw/main/greeting-banner.svg)](https://github.com/Heyyprakhar1/Heyyprakhar1/blob/main/greeting-banner.svg)
+<div align="center">
 
-&nbsp;
-
-[![Visitor Count](https://komarev.com/ghpvc/?username=Heyyprakhar1&style=for-the-badge&color=00ffe0&label=EXPLORERS+SO+FAR)](https://github.com/Heyyprakhar1)
-
-### ★ Featured Projects
-
-[![Three-Tier AWS Web App](https://img.shields.io/badge/🏗%20Three--Tier%20AWS%20Web%20App-ALB%20·%20EC2%20ASG%20·%20RDS%20·%20Terraform-0066ff?style=for-the-badge&labelColor=000d1a)](https://github.com/Heyyprakhar1/Node-three-tier-app)
-[![DevSecOps CI/CD Pipeline](https://img.shields.io/badge/🔐%20DevSecOps%20CI%2FCD%20Pipeline-GitHub%20Actions%20·%20Trivy%20·%20Bandit%20·%20Auto%20Deploy-00f0ff?style=for-the-badge&labelColor=000d1a)](https://github.com/Heyyprakhar1/two-tier-app)
-[![Microservices Ecommerce Platform](https://img.shields.io/badge/🛒%20Microservices%20Ecommerce-Flask%20·%20Nginx%20Gateway%20·%20JWT%20·%207--Stage%20Pipeline-a855f7?style=for-the-badge&labelColor=000d1a)](https://github.com/Heyyprakhar1/microservices-ecommerce-devsecops)
-
-
-> *"Don't just deploy — architect. Don't just automate — secure. This isn't infrastructure, it's a statement."*
-
----
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f6e56,100:185FA5&height=120&section=header&animation=fadeIn" width="100%"/>
 
 # Prakhar Srivastava
+### DevOps Engineer · AWS Cloud Infrastructure · CI/CD & DevSecOps
 
-**DevOps Engineer | Transitioned from Operations → Built CI/CD Pipelines, AWS Infrastructure & DevSecOps from Scratch**
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1000&color=1D9E75&center=true&vCenter=true&width=600&lines=1.5%2B+years+building+secure+CI%2FCD+pipelines;Shift-left+security+%7C+Zero+vulnerable+artifacts+in+prod;AWS+%7C+Kubernetes+%7C+Terraform+%7C+GitHub+Actions;Argo+CD+%7C+Ansible+%7C+Docker+%7C+DevSecOps)](https://git.io/typing-svg)
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=FF9900&center=true&vCenter=true&width=900&lines=Cloud+%26+DevOps+Engineer;Advanced+Certification+%7C+IIT+Roorkee+Collaboration;AWS+%7C+Docker+%7C+Kubernetes+%7C+CI%2FCD;DevSecOps+%7C+GitHub+Actions+%7C+Terraform;Building+Secure+%26+Scalable+Cloud+Systems)](https://hashnode.com/@heyyprakhar01)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/heyyprakhar1)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0F6E56?style=for-the-badge&logo=netlify&logoColor=white)](https://prakharsrivastava-devops.netlify.app/)
+[![Blog](https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white)](https://hashnode.com/@heyyprakhar1)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srivprak0106@gmail.com)
 
-[![Intellipaat](https://img.shields.io/badge/Intellipaat-Advanced%20Certification-orange?style=for-the-badge)](https://github.com/Heyyprakhar1)
-[![IIT Roorkee](https://img.shields.io/badge/IIT%20Roorkee-Collaboration-003366?style=for-the-badge)](https://github.com/Heyyprakhar1)
-[![Cloud Computing](https://img.shields.io/badge/Cloud%20Computing-Advanced-0A66C2?style=for-the-badge)](https://github.com/Heyyprakhar1)
-[![DevOps](https://img.shields.io/badge/DevOps-Advanced-8A2BE2?style=for-the-badge)](https://github.com/Heyyprakhar1)
-[![Linux](https://img.shields.io/badge/Linux-Strong%20Foundation-black?style=for-the-badge&logo=linux)](https://github.com/Heyyprakhar1)
-[![DevSecOps](https://img.shields.io/badge/DevSecOps-Practitioner-00f0ff?style=for-the-badge)](https://github.com/Heyyprakhar1)
-[![Hashnode](https://img.shields.io/badge/Hashnode-Technical%20Blogger-2962FF?style=for-the-badge&logo=hashnode)](https://hashnode.com/@heyyprakhar01)
+</div>
 
 ---
 
-# 👋 About Me
+## About me
 
-🚀 DevOps Engineer with hands-on experience in AWS, Docker, Kubernetes, and CI/CD.
+DevOps Engineer with **1.5+ years of production experience** designing secure CI/CD pipelines and highly available AWS cloud infrastructure for containerized workloads.
 
-🛠 Currently working on:
-- DevSecOps CI/CD pipelines (GitHub Actions)
-- AWS 3-Tier Architectures
-- Terraform-based Infrastructure Automation
-- Kubernetes (Advanced Concepts)
-- #90DaysOfDevOps — building and documenting daily
+I specialize in **shift-left DevSecOps** — embedding automated security gates into every stage of the delivery pipeline so vulnerabilities are caught at build time, not after deployment. My pipelines have achieved **zero vulnerable artifact promotions to production** across all environments I've managed.
 
-🤝 Looking to collaborate on:
-- DevOps real-world projects
-- Open-source cloud automation tools
-
-💬 Ask me about:
-- AWS architecture design
-- Docker & containerization
-- GitHub Actions pipelines
-- DevSecOps tools & workflows
-
-⚡ Fun fact: I enjoy breaking things in the cloud just to rebuild them better.
-
-🛠 I specialise in:
-- Designing AWS infrastructure (VPC, EC2, RDS, S3, ELB, IAM)
-- Infrastructure as Code using Terraform
-- DevSecOps CI/CD pipelines with security gates
-- Docker & containerization
-- Kubernetes orchestration + Helm
-- GitOps with Argo CD
-- Linux system administration & networking
-
-💡 Focused on: Automation, scalability, security-first architecture & production-grade deployments.
+- **Current focus:** Kubernetes orchestration, Terraform IaC, GitOps with Argo CD, and cloud-native DevSecOps
+- **Open to:** Full-time DevOps / Cloud Infrastructure / Platform Engineering roles
+- **Location:** Bihar, India · Remote-ready
 
 ---
 
-# 🏆 Automation Hero – TrainWithShubham Community
+## Impact at a glance
 
-## Milestone Achievement – February 2026
+<div align="center">
 
-Recognised as an Automation Hero in the TrainWithShubham Community  
-for excellence in automation, CI/CD practices, and DevOps contribution.
+| Metric | Result |
+|---|---|
+| 🚀 Release frequency improvement | **3× faster** production releases |
+| ⏱️ Deployment time reduction | **35% faster** average deploy |
+| 🔒 Vulnerable artifacts reaching production | **Zero** (6 automated security gates) |
+| ☁️ Infrastructure provisioning speed | **70% faster** via modular Terraform |
+| 📉 Release downtime (Kubernetes rollout) | **80% reduction** |
+| 🖥️ Server config management | **20+ Linux servers**, zero drift |
+| 🔔 Incident detection (MTTD) | **40% lower** with CloudWatch + SNS |
+| ⬆️ Infrastructure availability | **~99.9% uptime** maintained |
 
-🔗 https://community.trainwithshubham.com/heroes
-
----
-
-# 🚀 Featured DevOps & Cloud Projects
-
-## 🔐 DevSecOps CI/CD Pipeline — Two-Tier Flask App ⭐ NEW
-
-🔗 https://github.com/Heyyprakhar1/two-tier-app
-
-80+ pipeline runs, multiple production issues resolved, and a fully automated deployment pipeline achieved.
-
-**Pipeline Architecture:**
-
-Code Push → GitHub Actions (8-workflow pipeline)
-
-<img width="1345" height="927" alt="image" src="https://github.com/user-attachments/assets/323f2707-125b-4442-b69b-8c44ea98788a" />
+</div>
 
 ---
 
-## 🏗 Three-Tier AWS Web Application
+## Tech stack
 
-🔗 https://github.com/Heyyprakhar1/Node-three-tier-app
+**Cloud**
 
-✔ ALB · ✔ EC2 Auto Scaling · ✔ RDS · ✔ Secure networking
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![EC2](https://img.shields.io/badge/EC2-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![S3](https://img.shields.io/badge/S3-569A31?style=flat-square&logo=amazons3&logoColor=white)
+![VPC](https://img.shields.io/badge/VPC-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![IAM](https://img.shields.io/badge/IAM-DD344C?style=flat-square&logo=amazonaws&logoColor=white)
+![ECS](https://img.shields.io/badge/ECS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![ECR](https://img.shields.io/badge/ECR-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![ALB](https://img.shields.io/badge/ALB-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![RDS](https://img.shields.io/badge/RDS-527FFF?style=flat-square&logo=amazonrds&logoColor=white)
 
----
+**Infrastructure as Code**
 
-## ⚙️ Terraform AWS Infrastructure Automation
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![CloudFormation](https://img.shields.io/badge/CloudFormation-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white)
 
-🔗 https://github.com/Heyyprakhar1/Assignment-for-devops
+**CI/CD & GitOps**
 
-✔ Infrastructure provisioning · ✔ Modular design · ✔ Automation
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![Argo CD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
----
+**Containers & Orchestration**
 
-# 🧠 Core Technical Skills
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
 
-### ⚙️ CI/CD & Automation
-GitHub Actions | Jenkins | Argo CD | Terraform | Ansible
+**DevSecOps Tooling**
 
-### ☁️ Cloud
-AWS (EC2, S3, IAM, VPC, RDS, ELB, CloudWatch)
+![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=flat-square&logo=aquasecurity&logoColor=white)
+![Bandit](https://img.shields.io/badge/Bandit-306998?style=flat-square&logo=python&logoColor=white)
+![Gitleaks](https://img.shields.io/badge/Gitleaks-181717?style=flat-square&logo=github&logoColor=white)
+![Hadolint](https://img.shields.io/badge/Hadolint-2496ED?style=flat-square&logo=docker&logoColor=white)
+![pip--audit](https://img.shields.io/badge/pip--audit-3776AB?style=flat-square&logo=python&logoColor=white)
 
-### 🐳 Containers
-Docker | Kubernetes | Helm
+**Monitoring & Observability**
 
-### 🔐 DevSecOps
-Trivy | Bandit | Gitleaks | Hadolint
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
 
-### 🖥️ Systems
-Linux | Bash | Python (basic)
+**OS & Scripting**
 
----
-
-# ✍️ Blog
-
-🔗 https://hashnode.com/@heyyprakhar01
-
-I write about real DevOps experiences — focusing on failures, debugging, and production learnings.
-
----
-
-# 📊 GitHub Stats
-
-![GitHub Stats](https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Heyyprakhar1&theme=tokyonight)
-
----
-
-# 🤝 Connect
-
-LinkedIn: https://www.linkedin.com/in/heyyprakhar1/  
-Portfolio: https://prakharsrivastava-devops.netlify.app/
-
----
-
-# 🏆 Engineering Mindset
-
-Automate everything.  
-Secure by design.  
-Deploy with confidence.  
-Monitor and optimise continuously.  
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
 ---
 
-✨ Thanks for visiting — go build something awesome 🚀
+## Featured projects
+
+### 🔒 Secure DevSecOps Delivery Pipeline — Two-Tier Application
+> Shift-left security pipeline with 100% scan coverage per commit and zero unscanned artifacts reaching runtime.
+
+- Consolidated **6 security tools** (Bandit, Trivy, Gitleaks, Hadolint, pip-audit) into reusable multi-stage CI templates
+- Built artifact promotion gates blocking vulnerable container images from reaching production
+- Achieved **40% reduction** in pipeline maintenance overhead through standardized, reusable templates
+- Fully auditable delivery trail with no manual intervention required at any stage
+
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Heyyprakhar1)
+
+---
+
+### ☁️ Multi-AZ Cloud Infrastructure — Media Application
+> Production-grade, 3-tier AWS stack across 2 availability zones built with Terraform.
+
+- Architected **scalability, traffic routing, and network isolation** patterns for enterprise-level reliability
+- Achieved **70% faster provisioning** through modular Terraform vs manual setup — with reusable team templates
+- Enforced private subnet workload placement with ALB-controlled ingress and encrypted S3 lifecycle policies
+- Validated **zero-downtime failover** between both AZs via live load testing
+
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Heyyprakhar1)
+
+---
+
+### 🛒 Containerized Microservices E-Commerce Platform — DevSecOps
+> End-to-end DevSecOps pipeline for a containerized microservices architecture with Docker Compose.
+
+- Achieved **60% Docker image size reduction** through multi-stage builds and distroless base images
+- Integrated Trivy, Hadolint, and Gitleaks scanning at every pipeline stage — **zero security defect escapes**
+- Designed service mesh networking with isolated bridge networks enforcing **least-privilege** inter-service communication
+- Validated zero data loss during container restarts via named volume persistence strategies
+
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Heyyprakhar1)
+
+---
+
+## Certifications & recognition
+
+🎓 **Advanced Cloud & DevOps Program** — Intellipaat × IIT Roorkee (2025)
+
+🏆 **Automation Hero** — Recognized among 500+ participants in the #90DaysOfDevOps challenge (TrainWithShubham) for high-impact pipeline automation work shared across the cohort
+
+✍️ **Technical author** — 10+ hands-on DevOps engineering tutorials on Hashnode covering container internals, CI/CD design, and AWS infrastructure patterns — read by engineers across multiple countries
+
+---
+
+## GitHub stats
+
+<div align="center">
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Heyyprakhar1&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&show_icons=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Heyyprakhar1&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact"/>
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://nirzak-streak-stats.vercel.app/?user=Heyyprakhar1&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+<div align="center">
+
+**Open to DevOps / Cloud Infrastructure / Platform Engineering roles**
+
+[![Portfolio](https://img.shields.io/badge/View_Portfolio-0F6E56?style=for-the-badge&logo=netlify&logoColor=white)](https://prakharsrivastava-devops.netlify.app/)
+[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/heyyprakhar1)
+[![Email](https://img.shields.io/badge/Email_Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srivprak0106@gmail.com)
+
+<br/>
+
+[![Profile Views](https://visitcount.itsvg.in/api?id=Heyyprakhar1&icon=5&color=1)](https://visitcount.itsvg.in)
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:185FA5,100:0f6e56&height=80&section=footer" width="100%"/>
+
+</div>
