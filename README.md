@@ -116,6 +116,11 @@ I specialize in **shift-left DevSecOps** — embedding automated security gates 
 
 [![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Heyyprakhar1)
 
+** Architectural Diagram for DevSecOps **
+
+<img width="1345" height="927" alt="Screenshot 2026-03-27 190957" src="https://github.com/user-attachments/assets/dc6391eb-a367-4f3e-9e48-7236cd750f28" />
+
+
 ---
 
 ### ☁️ Multi-AZ Cloud Infrastructure — Media Application
