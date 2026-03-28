@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f6e56,100:185FA5&height=120&section=header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f6e56,100:185FA5&height=120&section=header&v=1" width="100%"/>
 
 # Prakhar Srivastava
 ### DevOps Engineer · AWS Cloud Infrastructure · CI/CD & DevSecOps
