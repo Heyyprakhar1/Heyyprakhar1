@@ -110,7 +110,7 @@ I specialize in **shift-left DevSecOps** — embedding automated security gates 
 - Achieved **40% reduction** in pipeline maintenance overhead through standardized, reusable templates
 - Fully auditable delivery trail with no manual intervention required at any stage
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Heyyprakhar1)
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Heyyprakhar1/two-tier-app)
 
 **  8-workflow parallel pipeline — all security gates must pass before artifact promotion **
 
@@ -127,7 +127,7 @@ I specialize in **shift-left DevSecOps** — embedding automated security gates 
 - Enforced private subnet workload placement with ALB-controlled ingress and encrypted S3 lifecycle policies
 - Validated **zero-downtime failover** between both AZs via live load testing
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Heyyprakhar1)
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Heyyprakhar1/aws-media-infra-terraform)
 
 ---
 
@@ -139,7 +139,7 @@ I specialize in **shift-left DevSecOps** — embedding automated security gates 
 - Designed service mesh networking with isolated bridge networks enforcing **least-privilege** inter-service communication
 - Validated zero data loss during container restarts via named volume persistence strategies
 
-[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Heyyprakhar1)
+[![Repo](https://img.shields.io/badge/View_Repo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Heyyprakhar1/microservices-ecommerce-devsecops)
 
 ---
 
