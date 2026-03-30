@@ -151,6 +151,10 @@ I specialize in **shift-left DevSecOps** — embedding automated security gates 
 
 ✍️ **Technical author** — 10+ hands-on DevOps engineering tutorials on Hashnode covering container internals, CI/CD design, and AWS infrastructure patterns — read by engineers across multiple countries
 
+## 🌟 Testimonials
+
+> 🚀 See real feedback from the community:  
+> 👉 https://community.trainwithshubham.com/heroes
 ---
 
 ## GitHub stats
