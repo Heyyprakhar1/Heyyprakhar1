@@ -10,7 +10,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/heyyprakhar1)
 [![Portfolio](https://img.shields.io/badge/Portfolio-0F6E56?style=for-the-badge&logo=netlify&logoColor=white)](https://prakharsrivastava-devops.netlify.app/)
-[![Blog](https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white)](https://hashnode.com/@heyyprakhar1)
+[![Blog](https://img.shields.io/badge/Hashnode-2962FF?style=for-the-badge&logo=hashnode&logoColor=white)](https://hashnode.com/@heyyprakhar01)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srivprak0106@gmail.com)
 
 </div>
