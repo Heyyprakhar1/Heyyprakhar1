@@ -147,6 +147,10 @@ I specialize in **shift-left DevSecOps** — embedding automated security gates 
 
 🎓 **Advanced Cloud & DevOps Program** — Intellipaat × IIT Roorkee (2025)
 
+## 🌟 Testimonials
+> 👉https://tih.iitr.ac.in/certificate/intellipaat/IPTIH26030271.jpg
+
+
 🏆 **Automation Hero** — Recognized among 500+ participants in the #90DaysOfDevOps challenge (TrainWithShubham) for high-impact pipeline automation work shared across the cohort
 
 ✍️ **Technical author** — 10+ hands-on DevOps engineering tutorials on Hashnode covering container internals, CI/CD design, and AWS infrastructure patterns — read by engineers across multiple countries
