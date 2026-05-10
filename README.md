@@ -19,13 +19,14 @@
 
 ## About me
 
-DevOps Engineer building production-grade infrastructure independently designing secure CI/CD pipelines and highly available AWS cloud infrastructure for containerized workloads.
+DevOps Engineer building production-grade infrastructure independently — all source code public on GitHub.
 
-I specialize in **shift-left DevSecOps** — embedding automated security gates into every stage of the delivery pipeline so vulnerabilities are caught at build time, not after deployment. My pipelines have achieved **zero vulnerable artifact promotions to production** across all environments I've managed.
+I specialize in shift-left DevSecOps — embedding automated security gates into every pipeline stage so vulnerabilities are caught at build time, not after deployment. Zero 
+vulnerable artifacts reach runtime.
 
-- **Current focus:** Kubernetes orchestration, Terraform IaC, GitOps with Argo CD, and cloud-native DevSecOps
-- **Open to:** Full-time DevOps / Cloud Infrastructure roles
-- **Location:** Bengaluru, Karnataka, India · Remote/On-site-ready
+- Current focus: Kubernetes, Terraform IaC, GitOps with Argo CD, cloud-native DevSecOps
+- Open to: Full-time DevOps / Cloud Infrastructure roles  
+- Location: Bengaluru, Karnataka · Remote/On-site ready
 
 ---
 
