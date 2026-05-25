@@ -159,18 +159,26 @@ Topics in progress: Kubernetes networking internals · Terraform module design p
 
 <div align="center">
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Heyyprakhar1&show_icons=true&hide_title=true&hide_border=true&bg_color=0d1117&text_color=9fe1cb&icon_color=0d9373&ring_color=0d9373&hide=issues)
+<!--
+  Streak card works out of the box.
+  Stats + top-langs cards: if images break on your profile, replace with the
+  alternative table block commented out below this section.
+-->
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Heyyprakhar1&hide_border=true&background=0d1117&ring=0d9373&fire=0d9373&currStreakLabel=9fe1cb&sideLabels=9fe1cb&dates=888780&currStreakNum=9fe1cb&sideNums=9fe1cb)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Heyyprakhar1&layout=compact&hide_border=true&bg_color=0d1117&text_color=9fe1cb&title_color=0d9373&hide=html)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Heyyprakhar1&layout=compact&hide_border=true&bg_color=0d1117&text_color=9fe1cb&title_color=0d9373&langs_count=6&hide=html,css)
 
 </div>
+
+```
+  624 contributions  ·  Dec 2024 – present  ·  primary: HCL · Go · Python · YAML · Shell
+```
 
 ---
 
 <div align="center">
 
-`→` &nbsp; [Portfolio](https://prakharsrivastava-devops.netlify.app) &nbsp;·&nbsp; [Hashnode](https://hashnode.com/@heyyprakhar01) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/heyyprakhar)
+`→` &nbsp; [Portfolio](https://prakharsrivastavadevops.netlify.app) &nbsp;·&nbsp; [Hashnode](https://hashnode.com/@heyyprakhar01) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/heyyprakhar1/)
 
 </div>
