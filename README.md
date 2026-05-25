@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.svg" alt="Prakhar Srivastava — Platform Engineer, DevSecOps, Cloud-Native Infrastructure" width="100%"/>
+<img src="https://raw.githubusercontent.com/Heyyprakhar1/Heyyprakhar1/main/banner.svg" alt="Prakhar Srivastava — Platform Engineer, DevSecOps, Cloud-Native Infrastructure" width="100%"/>
 
 <br/>
 
@@ -51,7 +51,7 @@ Design philosophy: infrastructure should be version-controlled, observable, and 
 
 ## Featured Projects
 
-### 🔷 Sentinel AI Platform &nbsp;
+### 🔷 Sentinel AI Platform &nbsp;`flagship`
 > Conversational analytics platform with an AI-powered query engine, full-stack observability, and a containerized delivery pipeline.
 
 **Stack:** Next.js · FastAPI · PostgreSQL · Docker · Prometheus · Grafana · Loki  
