@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Heyyprakhar1/Heyyprakhar1/main/banner.gif" alt="Prakhar Srivastava — Platform Engineer, DevSecOps, Cloud-Native Infrastructure" width="100%"/>
+<img src="https://raw.githubusercontent.com/Heyyprakhar1/Heyyprakhar1/main/banner.gif" alt="Prakhar Srivastava — Platform Engineer, Cloud Infrastructure, DevSecOps" width="100%"/>
 
 <br/>
 
@@ -176,6 +176,6 @@ Topics in progress: Kubernetes networking internals · Terraform module design p
 
 <div align="center">
 
-`→` &nbsp; [Portfolio](https://prakharsrivastavadevops.netlify.app) &nbsp;·&nbsp; [Hashnode](https://hashnode.com/@heyyprakhar01) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/heyyprakhar1/)
+`→` &nbsp; [Portfolio](https://prakharsrivastava-devops.netlify.app) &nbsp;·&nbsp; [Hashnode](https://hashnode.com/@heyyprakhar01) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/heyyprakhar1/)
 
 </div>
