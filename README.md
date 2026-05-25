@@ -1,11 +1,17 @@
 <div align="center">
 
-```
-┌─────────────────────────────────────────────────────────────────────┐
-│  Building secure cloud-native systems.                              │
-│  Kubernetes · Terraform · AI Infrastructure · DevSecOps             │
-└─────────────────────────────────────────────────────────────────────┘
-```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=13&duration=1&pause=999999&color=0D9373&center=true&vCenter=true&multiline=true&repeat=false&width=700&height=100&lines=%E2%96%B6+prakhar%40cloud-native+~%2F+%24+whoami;Platform+Engineer+%7C+DevSecOps+%7C+AI+Infrastructure;Kubernetes-native+%C2%B7+GitOps+%C2%B7+Observability-first+%C2%B7+Secure+Delivery">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=13&duration=1&pause=999999&color=0D9373&center=true&vCenter=true&multiline=true&repeat=false&width=700&height=100&lines=%E2%96%B6+prakhar%40cloud-native+~%2F+%24+whoami;Platform+Engineer+%7C+DevSecOps+%7C+AI+Infrastructure;Kubernetes-native+%C2%B7+GitOps+%C2%B7+Observability-first+%C2%B7+Secure+Delivery" alt="Prakhar Srivastava — Platform Engineer">
+</picture>
+
+<br/>
+
+# Building secure cloud-native systems.
+
+**`Kubernetes`** &nbsp;·&nbsp; **`Terraform`** &nbsp;·&nbsp; **`AI Infrastructure`** &nbsp;·&nbsp; **`DevSecOps`**
+
+<br/>
 
 **Prakhar Srivastava** &nbsp;·&nbsp; Cloud-Native Infrastructure · Platform Engineering · DevSecOps · AI Infrastructure
 
@@ -27,7 +33,7 @@ Currently exploring AI infrastructure patterns: model serving pipelines, vector 
 
 Open to platform engineering, SRE, and DevSecOps roles at startups building in the cloud-native space.
 
-&nbsp; **Location:** Patna, Bihar → open to Delhi NCR &nbsp;|&nbsp; **Community:** [TrainWithShubham](https://github.com/TrainWithShubham) · Automation Hero
+&nbsp; **Location:** Bangalore &nbsp;|&nbsp; **Community:** [TrainWithShubham](https://github.com/TrainWithShubham) · Automation Hero
 
 ---
 
@@ -159,26 +165,20 @@ Topics in progress: Kubernetes networking internals · Terraform module design p
 
 <div align="center">
 
-<!--
-  Streak card works out of the box.
-  Stats + top-langs cards: if images break on your profile, replace with the
-  alternative table block commented out below this section.
--->
-
 ![GitHub Streak](https://streak-stats.demolab.com?user=Heyyprakhar1&hide_border=true&background=0d1117&ring=0d9373&fire=0d9373&currStreakLabel=9fe1cb&sideLabels=9fe1cb&dates=888780&currStreakNum=9fe1cb&sideNums=9fe1cb)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Heyyprakhar1&layout=compact&hide_border=true&bg_color=0d1117&text_color=9fe1cb&title_color=0d9373&langs_count=6&hide=html,css)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Heyyprakhar1&layout=donut-vertical&hide_border=true&bg_color=0d1117&text_color=9fe1cb&title_color=0d9373&langs_count=6&hide=html,css,scss,dockerfile&card_width=280)
 
 </div>
 
 ```
-  624 contributions  ·  Dec 2024 – present  ·  primary: HCL · Go · Python · YAML · Shell
+  624 contributions  ·  Dec 2024 – present  ·  HCL · Go · Python · YAML · Shell
 ```
 
 ---
 
 <div align="center">
 
-`→` &nbsp; [Portfolio](https://prakharsrivastavadevops.netlify.app) &nbsp;·&nbsp; [Hashnode](https://hashnode.com/@heyyprakhar01) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/heyyprakhar1/)
+`→` &nbsp; [Portfolio](https://prakharsrivastava-devops.netlify.app) &nbsp;·&nbsp; [Hashnode](https://hashnode.com/@heyyprakhar01) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/heyyprakhar1/)
 
 </div>
