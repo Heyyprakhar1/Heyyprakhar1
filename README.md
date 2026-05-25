@@ -1,9 +1,6 @@
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=13&duration=1&pause=999999&color=0D9373&center=true&vCenter=true&multiline=true&repeat=false&width=700&height=100&lines=%E2%96%B6+prakhar%40cloud-native+~%2F+%24+whoami;Platform+Engineer+%7C+DevSecOps+%7C+AI+Infrastructure;Kubernetes-native+%C2%B7+GitOps+%C2%B7+Observability-first+%C2%B7+Secure+Delivery">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=13&duration=1&pause=999999&color=0D9373&center=true&vCenter=true&multiline=true&repeat=false&width=700&height=100&lines=%E2%96%B6+prakhar%40cloud-native+~%2F+%24+whoami;Platform+Engineer+%7C+DevSecOps+%7C+AI+Infrastructure;Kubernetes-native+%C2%B7+GitOps+%C2%B7+Observability-first+%C2%B7+Secure+Delivery" alt="Prakhar Srivastava — Platform Engineer">
-</picture>
+<img src="./banner.svg" alt="Prakhar Srivastava — Platform Engineer, DevSecOps, Cloud-Native Infrastructure" width="100%"/>
 
 <br/>
 
@@ -54,7 +51,7 @@ Design philosophy: infrastructure should be version-controlled, observable, and 
 
 ## Featured Projects
 
-### 🔷 Sentinel AI Platform &nbsp;`flagship`
+### 🔷 Sentinel AI Platform &nbsp;
 > Conversational analytics platform with an AI-powered query engine, full-stack observability, and a containerized delivery pipeline.
 
 **Stack:** Next.js · FastAPI · PostgreSQL · Docker · Prometheus · Grafana · Loki  
