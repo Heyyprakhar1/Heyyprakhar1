@@ -60,7 +60,7 @@ Design philosophy: infrastructure should be version-controlled, observable, and 
 - Prometheus + Grafana + Loki: metrics, dashboards, and log aggregation from day one
 - CI/CD pipeline debugged to green — from container build through deployment health checks
 
-→ [github.com/Heyyprakhar1/sentinel-ai-platform](https://github.com/Heyyprakhar1)
+→ [github.com/Heyyprakhar1/sentinel-ai-platform](https://github.com/Heyyprakhar1/sentinel-ai-platform)
 
 ---
 
@@ -73,7 +73,7 @@ Design philosophy: infrastructure should be version-controlled, observable, and 
 - CloudWatch alarms drive ASG scale-in/out policies
 - Fully separated concerns: each module independently testable and composable
 
-→ [github.com/Heyyprakhar1/terraform-aws-infrastructure](https://github.com/Heyyprakhar1)
+→ [github.com/Heyyprakhar1/terraform-aws-infrastructure](https://github.com/Heyyprakhar1/aws-autoscaling-infra)
 
 ---
 
@@ -87,7 +87,7 @@ Design philosophy: infrastructure should be version-controlled, observable, and 
 - Argo CD GitOps sync with Kubernetes manifests as the source of truth
 - Secrets management without hardcoded credentials at any stage
 
-→ [github.com/Heyyprakhar1/microservices-ecommerce-devsecops](https://github.com/Heyyprakhar1)
+→ [github.com/Heyyprakhar1/microservices-ecommerce-devsecops](https://github.com/Heyyprakhar1/microservices-ecommerce-devsecops)
 
 ---
 
