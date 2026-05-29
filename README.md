@@ -52,13 +52,18 @@ Design philosophy: infrastructure should be version-controlled, observable, and 
 ## Featured Projects
 
 ### 🔷 Sentinel AI Platform &nbsp;`flagship`
-> Conversational analytics platform with an AI-powered query engine, full-stack observability, and a containerized delivery pipeline.
+> AI-powered DevSecOps monitoring platform — production-style cloud-native architecture with multi-environment Kubernetes deployment, security scanning gates, and an observability-first design.
 
-**Stack:** Next.js · FastAPI · PostgreSQL · Docker · Prometheus · Grafana · Loki  
+**Stack:** Python · FastAPI · Docker (multi-stage) · Kubernetes · K3d · GitHub Actions · Prometheus · Grafana · Amazon ECR · AWS EKS
+**DevSecOps:** SonarQube · Trivy · OPA Gatekeeper
+
 **Highlights:**
-- Multi-stage Docker build with Trivy scan gates in CI
-- Prometheus + Grafana + Loki: metrics, dashboards, and log aggregation from day one
-- CI/CD pipeline debugged to green — from container build through deployment health checks
+- Multi-stage, non-root Docker build with structured logging and pydantic-settings config management
+- K3d local cluster with 3 isolated environments (dev/staging/prod) — 1→2→3 replicas, per-env resource limits and log levels
+- Kubernetes manifests with properly configured liveness (`/health`) and readiness (`/status`) probes — wired to the actual FastAPI route layer
+- Modular `k8s/base` + `k8s/overlays` structure — environment parity without manifest duplication
+- Makefile-driven workflow: `make deploy-all`, `make status`, `make cluster-up` — no tribal knowledge required to run it
+- GitHub Actions CI/CD + AWS EKS deployment in progress (Phase 5–7 active)
 
 → [github.com/Heyyprakhar1/sentinel-ai-platform](https://github.com/Heyyprakhar1/sentinel-ai-platform)
 
@@ -68,26 +73,13 @@ Design philosophy: infrastructure should be version-controlled, observable, and 
 > Modular, production-oriented AWS infrastructure: 28 resources across 6 Terraform modules — designed for auto-scaling web workloads.
 
 **Modules:** VPC · ALB · ASG · RDS · Security Groups · CloudWatch  
+
 **Highlights:**
 - State managed in S3 with DynamoDB locking
 - CloudWatch alarms drive ASG scale-in/out policies
 - Fully separated concerns: each module independently testable and composable
 
 → [github.com/Heyyprakhar1/terraform-aws-infrastructure](https://github.com/Heyyprakhar1/aws-autoscaling-infra)
-
----
-
-### 🔷 Secure DevSecOps Delivery Pipeline
-> End-to-end GitOps pipeline for a microservices platform — three Flask services, MySQL, Kubernetes on kind, Argo CD, and a security-scanned CI layer.
-
-**Stack:** GitHub Actions · Argo CD · Kubernetes (kind) · Helm · Docker · ECR  
-**Security gates:** Trivy (container) · Gitleaks (secrets) · Bandit (Python SAST) · Hadolint (Dockerfile lint) · pip-audit (dependency CVEs)  
-**Highlights:**
-- 8 reusable GitHub Actions workflow files — modular, DRY, composable
-- Argo CD GitOps sync with Kubernetes manifests as the source of truth
-- Secrets management without hardcoded credentials at any stage
-
-→ [github.com/Heyyprakhar1/microservices-ecommerce-devsecops](https://github.com/Heyyprakhar1/microservices-ecommerce-devsecops)
 
 ---
 
