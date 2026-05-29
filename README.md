@@ -26,7 +26,7 @@
 
 Infrastructure engineer with a focus on cloud-native systems, platform automation, and secure delivery workflows. I work at the intersection of Kubernetes-native tooling, GitOps, and DevSecOps — designing systems that are observable by default, auditable end-to-end, and built to scale without accumulating operational debt.
 
-Currently exploring AI infrastructure patterns: model serving pipelines, vector store backends, and the platform primitives that make AI workloads production-safe.
+Currently building AI infrastructure patterns: model serving pipelines, vector store backends, and the platform primitives that make AI workloads production-safe.
 
 Open to platform engineering, SRE, and DevSecOps roles at startups building in the cloud-native space.
 
@@ -52,38 +52,146 @@ Design philosophy: infrastructure should be version-controlled, observable, and 
 ## Featured Projects
 
 ### 🔷 Sentinel AI Platform &nbsp;`flagship`
-> AI-powered DevSecOps monitoring platform — production-style cloud-native architecture with multi-environment Kubernetes deployment, security scanning gates, and an observability-first design.
 
-**Stack:** Python · FastAPI · Docker (multi-stage) · Kubernetes · K3d · GitHub Actions · Prometheus · Grafana · Amazon ECR · AWS EKS
-**DevSecOps:** SonarQube · Trivy · OPA Gatekeeper
+> AI-powered DevSecOps monitoring platform — full-stack cloud-native system with a React dashboard, FastAPI AI backend, multi-environment Kubernetes deployment, OPA policy enforcement, Prometheus observability stack, and Terraform-provisioned AWS EKS infrastructure. Every layer production-engineered: security-scanned CI, non-root containers, HPA, PDB, NetworkPolicy, and Alertmanager wired to Slack.
 
-**Highlights:**
-- Multi-stage, non-root Docker build with structured logging and pydantic-settings config management
-- K3d local cluster with 3 isolated environments (dev/staging/prod) — 1→2→3 replicas, per-env resource limits and log levels
-- Kubernetes manifests with properly configured liveness (`/health`) and readiness (`/status`) probes — wired to the actual FastAPI route layer
-- Modular `k8s/base` + `k8s/overlays` structure — environment parity without manifest duplication
-- Makefile-driven workflow: `make deploy-all`, `make status`, `make cluster-up` — no tribal knowledge required to run it
-- GitHub Actions CI/CD + AWS EKS deployment in progress (Phase 5–7 active)
+**Backend:** Python 3.12 · FastAPI · Uvicorn · psutil · pydantic-settings  
+**Frontend:** React · Vite · Nginx (multi-stage Docker)  
+**Containerization:** Docker (multi-stage, non-root, health-checked) · Docker Compose  
+**Orchestration:** Kubernetes · K3d (local) · AWS EKS v1.35 (Terraform-provisioned)  
+**IaC:** Terraform — VPC · EKS · ECR · IAM (ap-south-1, t3.medium nodes)  
+**CI/CD:** GitHub Actions — 2 pipelines, 8 jobs  
+**DevSecOps:** SonarCloud · Trivy · Bandit · pip-audit · npm audit · Hadolint · ShellCheck · Gitleaks · OPA Gatekeeper  
+**Observability:** Prometheus · Grafana · Alertmanager (PrometheusRule + ServiceMonitor + Slack routing)
+
+---
+
+**Architecture — Production (AWS EKS):**
+```
+GitHub Push
+    ↓
+GitHub Actions CI (test → sonarcloud → docker-build → trivy scan)
+    ↓
+GitHub Actions Security (bandit → pip-audit → npm audit → hadolint → shellcheck → gitleaks)
+    ↓
+Amazon ECR (scan-on-push, 10-image lifecycle policy)
+    ↓
+AWS EKS v1.35 — ap-south-1 (Terraform: VPC + public/private subnets + IGW)
+    ↓
+┌──────────────────────────────────────────────────────┐
+│  Kubernetes Manifests (kustomize base + overlays)    │
+│                                                      │
+│  sentinelai-dev    sentinelai-staging  sentinelai-prod│
+│  1 replica         2 replicas          3 replicas    │
+│  50m/64Mi          100m/128Mi          200m/256Mi    │
+│  DEBUG             INFO                WARNING       │
+└──────────────────────────────────────────────────────┘
+    ↓
+OPA Gatekeeper (3 constraint templates: ban :latest, require non-root, require resource limits)
+    ↓
+HPA (CPU 70% / Memory 80% → 2–10 replicas) + PDB (minAvailable: 1)
+    ↓
+NetworkPolicy (ingress from sentinelai-dev + monitoring NS only; egress to Prometheus :9090 + DNS)
+    ↓
+Prometheus (ServiceMonitor scraping /metrics every 15s) + Grafana + Alertmanager
+    ↓
+PrometheusRules: SentinelAIHighCPU (>80%, 2m) · SentinelAIHighMemory (>85%, 2m) · SentinelAIDown (1m)
+    ↓
+Slack: #sentinelai-alerts (warning) · #sentinelai-critical (critical)
+```
+
+---
+
+**What's actually built:**
+
+**AI Anomaly Detection Engine**
+- `AnomalyDetector` class using Z-score statistical analysis against a 20-reading rolling buffer
+- Detects CPU and memory anomalies with severity classification: `normal → warning → critical`
+- Confidence scoring: `low / medium / high` mapped to Z-score thresholds (2.0 / 3.0)
+- Warms up after 5 readings — no false positives on cold start
+- Powers `/recommendation` endpoint with actionable remediation text (HPA scale-up suggestions, memory leak flags)
+
+**Full-Stack Dashboard (React + Vite)**
+- Real-time polling architecture: health (10s) · status (15s) · alerts (5s) · recommendations (5s)
+- Components: `MetricCard` · `MetricsChart` (30-point rolling history) · `AlertsFeed` · `AnomalyPanel` · `K8sPanel` · `StatusBar` · `StatusDetails`
+- Nginx-served in production via multi-stage Docker build; `Dockerfile.compose` variant for local Docker Compose
+
+**Dual Docker Compose Stack (local)**
+- 5-service stack: FastAPI backend · React/Nginx frontend · Prometheus · Grafana · Alertmanager
+- Backend health-checked (`/health` probe with retry) before frontend starts
+- Grafana with persistent volume, admin credentials from `.env`, sign-up disabled
+
+**CI/CD — 2 Pipelines, 8 Jobs:**
+
+| Pipeline | Job | What It Does |
+|---|---|---|
+| `ci.yml` | `test` | pytest + coverage (≥70% gate) |
+| `ci.yml` | `sonarcloud` | SonarCloud SAST (after test passes) |
+| `ci.yml` | `docker-build` | Build image + Trivy CRITICAL scan (exit 1 on fail) |
+| `security.yml` | `python-security` | Bandit (Python SAST) + pip-audit (CVE check) |
+| `security.yml` | `js-security` | npm audit (high severity gate) on frontend |
+| `security.yml` | `dockerfile-lint` | Hadolint on all 3 Dockerfiles |
+| `security.yml` | `shell-check` | ShellCheck on all scripts/ |
+| `security.yml` | `secret-scan` | Gitleaks full history scan |
+
+**OPA Gatekeeper — 3 Policy Templates (Rego):**
+- `BanLatestTag` — blocks any container using `:latest` image tag at admission
+- `RequireNonRoot` — enforces `securityContext.runAsNonRoot: true` on all containers
+- `RequireResourceLimits` — rejects pods without CPU/memory limits defined
+
+**Terraform IaC (ap-south-1):**
+- VPC: 10.0.0.0/16 · 2 public subnets (ap-south-1a/1b) · 2 private subnets · IGW · route tables
+- EKS: v1.35 cluster · t3.medium node group (1–3 nodes) · API auth mode · IAM roles (cluster + node group) with AmazonEKSClusterPolicy, AmazonEKSWorkerNodePolicy, AmazonEKS_CNI_Policy, AmazonEC2ContainerRegistryReadOnly
+- ECR: scan-on-push enabled · lifecycle policy (keep last 10 images) · S3 + DynamoDB state backend
+
+**API Surface:**
+
+| Endpoint | Method | Purpose | Kubernetes Binding |
+|---|---|---|---|
+| `/health` | GET | App liveness + version info | Liveness probe |
+| `/status` | GET | Uptime + readiness check | Readiness probe |
+| `/metrics` | GET | Prometheus metrics | ServiceMonitor scrape target (15s) |
+| `/alerts` | GET | Live alert feed | Core workload |
+| `/recommendation` | GET | AI anomaly analysis + remediation | Core workload |
 
 → [github.com/Heyyprakhar1/sentinel-ai-platform](https://github.com/Heyyprakhar1/sentinel-ai-platform)
 
 ---
 
 ### 🔷 Terraform AWS Infrastructure
+
 > Modular, production-oriented AWS infrastructure: 28 resources across 6 Terraform modules — designed for auto-scaling web workloads.
 
-**Modules:** VPC · ALB · ASG · RDS · Security Groups · CloudWatch  
+**Modules:** VPC · ALB · ASG · RDS · Security Groups · CloudWatch
 
 **Highlights:**
 - State managed in S3 with DynamoDB locking
 - CloudWatch alarms drive ASG scale-in/out policies
 - Fully separated concerns: each module independently testable and composable
 
-→ [github.com/Heyyprakhar1/terraform-aws-infrastructure](https://github.com/Heyyprakhar1/aws-autoscaling-infra)
+→ [github.com/Heyyprakhar1/aws-autoscaling-infra](https://github.com/Heyyprakhar1/aws-autoscaling-infra)
+
+---
+
+### 🔷 Secure DevSecOps Delivery Pipeline
+
+> End-to-end GitOps pipeline for a microservices platform — three Flask services, MySQL, Kubernetes on kind, Argo CD, and a security-scanned CI layer.
+
+**Stack:** GitHub Actions · Argo CD · Kubernetes (kind) · Helm · Docker · ECR
+
+**Security gates:** Trivy (container) · Gitleaks (secrets) · Bandit (Python SAST) · Hadolint (Dockerfile lint) · pip-audit (dependency CVEs)
+
+**Highlights:**
+- 8 reusable GitHub Actions workflow files — modular, DRY, composable
+- Argo CD GitOps sync with Kubernetes manifests as the source of truth
+- Secrets management without hardcoded credentials at any stage
+
+→ [github.com/Heyyprakhar1/microservices-ecommerce-devsecops](https://github.com/Heyyprakhar1/microservices-ecommerce-devsecops)
 
 ---
 
 ### 🔷 SkillPulse &nbsp;`hackathon · TrainWithShubham`
+
 > Three-tier application with a production-grade CI/CD pipeline, GitOps delivery via Argo CD, and a full observability stack — built under hackathon constraints.
 
 **Stack:** Go · Nginx · MySQL · GitHub Actions · Argo CD · Kubernetes (kind) · Prometheus · Grafana · Loki
